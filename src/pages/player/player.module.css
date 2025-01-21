@@ -1,5 +1,7 @@
 iframe{
     height: 80vh;
+    border-radius: 15px;
+    box-shadow: 0 0 8px black;
 }
 
 .player .playerInfo{

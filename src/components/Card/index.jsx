@@ -40,6 +40,10 @@ const CssCard = styled.div`
         color: var(--cor-texto);
 
     }
+    h2{
+        font-size: 18px;
+        margin: 1rem 0;
+    }
     .favoritar{
         font-size: 32px;
         cursor: pointer;

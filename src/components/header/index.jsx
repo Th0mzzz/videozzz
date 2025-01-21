@@ -12,6 +12,7 @@ const StyledHeader = styled.header`
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
+    gap: 1rem;
     align-items: center;
     background: var(--fundo-1);
     padding: 1.1em clamp(5em, 15vw, 10em);
@@ -26,20 +27,26 @@ const StyledHeader = styled.header`
         border: none;
         padding: 0;
         margin: 0;
-        font-size: 25px;
+        width: 25px;
         height: 25px;
         width: fit-content;
         cursor: pointer;
         color: var(--cor-texto);
         margin-left: 1rem;
         outline: none;
+        svg{
+            width: 100%;
+            height: 100%;
+        }
     }
     nav{
         display: flex;
+        flex-flow: row wrap;
         align-items: center;
+        justify-content: space-around;
     }
     
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         &{
             justify-content: space-between;
         }

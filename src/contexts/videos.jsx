@@ -16,17 +16,29 @@ export const useVideosContext = () => {
     const { videos, setVideos } = useContext(VideosContext)
 
     useEffect(() => {
-        fetch('https://my-json-server.typicode.com/Th0mzzz/miniquasart-json-server/db')
-            .then(response => response.json())
-            .then(data => setVideos(data.videos))
-            .catch(error => {
-                console.log('Erro ao capturar API')
-                console.log(error)
-            })
-    }, [])
+        if (videos.length === 0) { 
+            fetch('https://my-json-server.typicode.com/Th0mzzz/miniquasart-json-server/db')
+                .then(response => response.json())
+                .then(data => setVideos(data.videos))
+                .catch(error => {
+                    console.log('Erro ao capturar API:', error);
+                });
+        }
+    }, [videos, setVideos]);
 
+    function addVideos(video) {
+        let newList = [...videos]
+
+        video.id = videos.length > 0 ? videos[videos.length - 1].id + 1 : 1;
+
+        newList.push(video)
+        console.log('Adicionando novo vídeo')
+        console.log(video)
+        setVideos(newList)
+    }
     return {
         videos,
+        addVideos
     }
 
 
