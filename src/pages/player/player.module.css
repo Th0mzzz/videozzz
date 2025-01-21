@@ -1,3 +1,30 @@
 iframe{
     height: 80vh;
 }
+
+.player .playerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player .favoritar{
+    font-size: 40px;
+    cursor: pointer;
+    color: var(--cor-texto);
+    transition: all .4s;
+    &.favoritado{
+        animation: pular .6s;
+        color: var(--primary);
+    }
+
+}
+
+@keyframes pular {
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+}

@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const CSScontainer = styled.section`
     section {
-        margin: 2em 20em;
-    text-align: center;
+        margin: 4em clamp(5em, 15vw, 10em);
+        text-align: center;
     }
 `
 

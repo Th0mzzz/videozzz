@@ -1,8 +1,17 @@
 :root {
   --fonte-padrao: 'Montserrat', sans-serif;
-  --cor-container: #e2e2e2;
-  --fundo-1: #fff
-  --fundo-2: #000;
+  --cor-container: #fff;
+  --fundo-1: #FBFBFB;
+  --fundo-2: #191a29;
+  --cor-texto: #0C0C0C;
+  --primary: #ff3131;
+}
+
+[data-theme='dark'] {
+  --fundo-1: #191a29;
+  --cor-container: #26283f;
+  --fundo-2: #0C0C0C;
+  --cor-texto: #fff;
 }
 
 body {
@@ -11,10 +20,10 @@ body {
   min-height: 100vh;
   font-family: var(--fonte-padrao);
   background: var(--fundo-1);
+  transition: background .4s;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-

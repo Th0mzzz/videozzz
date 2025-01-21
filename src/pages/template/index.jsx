@@ -5,22 +5,21 @@ import Container from "@/components/Container";
 import FavoritosProv from "@/contexts/favoritos.jsx";
 import VideosProvider from "../../contexts/videos";
 
-
 const Template = () => {
     return (
-        <main>
-            <Header />
+        <div>
             <VideosProvider>
                 <FavoritosProv>
-                    <Container>
-                        <Outlet />
-                    </Container>
+                    <Header />
+                    <main>
+                        <Container>
+                            <Outlet />
+                        </Container>
+                    </main>
+                    <Footer />
                 </FavoritosProv>
             </VideosProvider>
-
-            <Footer />
-
-        </main>
+        </div>
     )
 }
 

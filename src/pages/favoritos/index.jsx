@@ -11,7 +11,12 @@ const Favoritos = () => {
             <Banner imagem={'favoritos'} />
             <Title><h1>Seus favoritos</h1></Title>
             <section className={styles.container}>
-                {favoritos?.map(video => <Card {...video} key={video.id} />)}
+                {
+                favoritos.length > 0 
+                ? favoritos.map(video => <Card {...video} key={video.id} />) 
+                : <h2 style={{color:'var(--cor-texto)'}}>Não há favoritos!</h2>
+                }
+
             </section>
         </>
     )
