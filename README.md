@@ -1,5 +1,4 @@
-# Videozzz
-<img src='./public/'>
+<img src='/src/assets/logos/logo-dark.png'>
 
 ## Sobre o Projeto
 
@@ -32,7 +31,7 @@ Com uma interface responsiva e funcionalidades que atendem às necessidades dos 
 
 Você pode acessar a aplicação diretamente através do seguinte link hospedado no Vercel:
 
-[Videozzz no Vercel](https://videozzz.vercel.app)
+[Videozzz no Vercel](https://videozzz-nine.vercel.app/)
 
 ## Instalação e Execução
 
@@ -41,7 +40,7 @@ Siga as instruções abaixo para clonar e executar o projeto localmente:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/videozzz.git
+   git clone https://github.com/th0mzzz/videozzz.git
    ```
 
 2. Acesse o diretório do projeto:
@@ -63,6 +62,10 @@ Siga as instruções abaixo para clonar e executar o projeto localmente:
    ```
 
 5. Abra o navegador e acesse [http://localhost:5173](http://localhost:5173).
+
+## Imagens
+<img src='/src/assets/logos/logo-dark.png'>
+<img src='/src/assets/logos/logo-dark.png'>
 
 ## Licença
 
