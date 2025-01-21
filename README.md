@@ -63,8 +63,10 @@ Siga as instruções abaixo para clonar e executar o projeto localmente:
 5. Abra o navegador e acesse [http://localhost:5173](http://localhost:5173).
 
 ## Imagens
-<img src='/src/assets/logos/logo-dark.png'>
-<img src='/src/assets/logos/logo-dark.png'>
+<img src='/src/assets/readme/readme-1.png'>
+<img src='/src/assets/readme/readme-2.png'>
+<img src='/src/assets/readme/readme-3.png'>
+<img src='/src/assets/readme/readme-4.png'>
 
 ## Licença
 
