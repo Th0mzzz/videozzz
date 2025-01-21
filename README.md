@@ -24,8 +24,7 @@ Com uma interface responsiva e funcionalidades que atendem às necessidades dos 
 
 1. **Explorar Vídeos**: Navegue pela lista de vídeos disponíveis e escolha um para assistir.
 2. **Adicionar um Novo Vídeo**: Use o formulário de adição para enviar um novo vídeo à plataforma.
-3. **Pesquisar**: Utilize a barra de pesquisa para encontrar vídeos específicos.
-4. **Favoritar Vídeos**: Clique no ícone de favorito para salvar os vídeos que mais gosta.
+3. **Favoritar Vídeos**: Clique no ícone de favorito para salvar os vídeos que mais gosta.
 
 ## Acesse Online
 
